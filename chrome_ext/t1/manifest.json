@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "我的本地扩展程序",
+  "version": "1.0",
+  "description": "一个简单的本地 Chrome 扩展程序",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+
+    "theme_icons": [
+      {
+        "light": "images/icon-light.png",
+        "dark": "images/icon-dark.png",
+        "size": 16
+      }
+    ]
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+O",
+        "mac": "Command+Shift+F"
+      },
+      "description": "打开我的test扩展功能"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
