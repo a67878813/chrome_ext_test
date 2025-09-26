@@ -5,7 +5,7 @@ content-script.js 前台js， 根据需要自定query方法，传递至后端api
 manifest.json 可定义快捷键
 
 示例截图：
-![Description of the image](capture.png)
+![Description of the image](capture.PNG)
 
 使用方法：
 1.打开chrome dev模式
