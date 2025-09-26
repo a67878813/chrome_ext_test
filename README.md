@@ -1,4 +1,4 @@
-'''
+```
 pyAPI.py 后端api接口
 
 tcp_msg.py json消息接口
@@ -8,7 +8,7 @@ background.js 后台js，chrome中需手动指定change-group快捷键
 content-script.js 前台js， 根据需要自定query方法，传递至后端api
 
 manifest.json 可定义快捷键
-'''
+```
 
 示例截图：
 ![Description of the image](capture.PNG)
